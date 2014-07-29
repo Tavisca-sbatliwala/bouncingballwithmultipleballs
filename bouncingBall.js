@@ -15,6 +15,8 @@ function movement(ballObject){
   this.divTag=ballObject;
 
     this.ballAnimation=function(){
+    max_X_Coordinate= window.innerWidth;
+    max_Y_Coordinate=window.innerHeight;
     this.x_Cooridinate= parseInt(this.divTag.style.left);
     this.y_Coordinate= parseInt(this.divTag.style.top); 
     this.x_Cooridinate +=this.valueToAddInX;
