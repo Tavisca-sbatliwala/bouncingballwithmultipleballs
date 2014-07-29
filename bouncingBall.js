@@ -10,8 +10,8 @@ function movement(ballObject){
   this.obj=ballObject;
   this.x_Cooridinate=Math.floor((Math.random() * window.innerWidth) + 1);
   this.y_Coordinate=Math.floor((Math.random() * window.innerHeight) + 1);
-  this.valueToAddInX=20;  
-  this.valueToAddInY=20;
+  this.valueToAddInX=Math.floor((Math.random() * 20) + 1);  
+  this.valueToAddInY=Math.floor((Math.random() * 20) + 1);
   this.divTag=ballObject;
 
     this.ballAnimation=function(){
